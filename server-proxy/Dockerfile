@@ -1,4 +1,4 @@
-FROM jboss/keycloak:latest
+FROM jboss/keycloak-mysql:latest
 
 ADD enableProxy.xsl /opt/jboss/keycloak/
 
